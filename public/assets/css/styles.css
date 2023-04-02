@@ -1,0 +1,28 @@
+/* ---------------------------------- Général */
+html,
+body {
+  height: 100% !important;
+}
+
+/* ---------------------------------- Pagination */
+.pagination {
+    justify-content: center;
+    margin: auto;
+}
+.pagination .page-link {
+    color: #fff;
+    background-color: #212529;
+    border-color: #343a40;
+}
+.pagination .page-item.active .page-link {
+    color: #343a40;
+    background-color: #fff;
+    border-color: #343a40;
+}
+
+
+/* ---------------------------------- Lien tableau */
+.lien-neutre {
+    text-decoration: none;
+    color: inherit;
+}
